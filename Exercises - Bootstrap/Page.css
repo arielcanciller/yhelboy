@@ -1,0 +1,13 @@
+@media (min-width:768px) {
+    .my-title{
+        font-size: 30px;
+
+    }
+}
+
+@media (Max-width:768px) {
+    .my-title{
+        font-size: 15px;
+
+    }
+}

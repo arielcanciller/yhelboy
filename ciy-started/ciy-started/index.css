@@ -8,7 +8,7 @@ html {
   }
   
   body {
-    background: url('https://i.ytimg.com/vi/fw-aXF-L8-k/maxresdefault.jpg') no-repeat !important;
+    background: url('https://cdn.pixabay.com/photo/2018/04/11/13/47/background-3310460_1280.jpg') no-repeat !important;
     padding-top:100px;
     background-size:cover;
     min-height: 100vh;
@@ -58,15 +58,15 @@ html {
     box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15);
   }
   
-  .item:nth-child(9n+1) { background: dodgerblue;}
-  .item:nth-child(9n+2) { background: goldenrod;}
-  .item:nth-child(9n+3) { background: paleturquoise;}
-  .item:nth-child(9n+4) { background: gold;}
-  .item:nth-child(9n+5) { background: cadetblue;}
-  .item:nth-child(9n+6) { background: tomato;}
-  .item:nth-child(9n+7) { background: lightcoral;}
-  .item:nth-child(9n+8) { background: darkslateblue;}
-  .item:nth-child(9n+9) { background: rebeccapurple;}
+  .item:nth-child(9n+1) { background: rgb(255, 30, 30);}
+  .item:nth-child(9n+2) { background: rgb(218, 100, 32);}
+  .item:nth-child(9n+3) { background: rgb(251, 255, 8);}
+  .item:nth-child(9n+4) { background: rgb(0, 253, 135);}
+  .item:nth-child(9n+5) { background: rgb(6, 221, 192);}
+  .item:nth-child(9n+6) { background: rgb(14, 90, 255);}
+  .item:nth-child(9n+7) { background: rgb(144, 9, 255);}
+  .item:nth-child(9n+8) { background: rgb(206, 0, 224);}
+  .item:nth-child(9n+9) { background: rgb(124, 0, 14);}
   
   .item:nth-child(even) { transform: scaleX(1.50) rotateY(15deg); }
   .item:nth-child(odd) { transform: scaleX(1.50) rotateY(15deg); }

@@ -79,6 +79,6 @@ function doSplice(){
 }   
 
 function doSort(){
-    numbers.reverse(function (a,b) {return b-a});
+    numbers.reverse();
     renderList();
 }   
